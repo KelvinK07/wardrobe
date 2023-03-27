@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+.firstScreen{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFD7D7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+.fsinfo{
+
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.fsnavigator{
+
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fsnavigator img{
+    height: 15vh;
+    width: 7vw;
+}
+.fsbutton{
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fsbutton a{
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+}
+.fsbutton img{
+
+    width: 1.6vw;
+    height: 1.6vw;
+}
+.fsinfo img{
+    width: 30vw;
+    height: 30vw;
+}
+.fsinfotext{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.fsittitle{
+    font-size: 50pt;
+    font-weight: 400;
+}
+.fsitinfo{
+    font-size: 20pt;
+    font-weight: 400;
+}
+.fsitbutton{
+    margin-top: 40px;
+    width: 8vw;
+    height: 5vh;
+    background-color: rgb(161, 114, 114);
+    border-radius: 10px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+.fsitbutton a{
+    padding: 10px;
+    align-items: center;
+    font-size: 1vw;
+    color: rgb(255, 223, 223);
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.fsitbutton:hover{
+    background-color: rgb(255, 223, 223);
+}
+.fsitbutton a:hover{
+    color: rgb(161, 114, 114);
+}
+
+/*----------------------------------------------------------------------------*/
+
+.product{
+    background-color: white;
+    width: 100vw;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+.featuredproduct{
+
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featuredproduct h1{
+    margin: 20px 10px;
+    font-size: 30pt;
+    color: rgb(87, 87, 87);
+}
+.featuredproduct hr{
+    width: 15vw;
+    background-color: #FFD7D7;
+}
+.latestproduct{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latestproduct h1{
+    margin: 20px 10px;
+    font-size: 30pt;
+    color: rgb(87, 87, 87);
+}
+.latestproduct hr{
+    width: 15vw;
+    background-color: #FFD7D7;
+}
+.cardplace{
+    width: 70vw;
+    height: 40vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+/*-----------------------------------------------------------------*/
+.aboutus{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:#FFD7D7;
+}
+.aboutus h1{
+    font-size: 8vw;
+    font-weight: 400;
+    color: #000000;
+}
+.aboutus h2{
+    font-size: 2.1vw;
+    font-weight: 800;
+    color: #000000;
+}
+.aboutus h3{
+    font-size: 1vw;
+    margin-left: 12vw;
+}
+.cr{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cr hr{
+    width: 90vw;
+}
+
+/*-----------------------------------------------------------------*/
+
+@media screen and (max-width:576px){
+    .firstScreen{
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFD7D7;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .fsinfo{
+    
+        width: 90vw;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .fsnavigator{
+    
+        width: 90vw;
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fsnavigator img{
+        height: 30vh;
+        width: 25vw;
+    }
+    .fsbutton{
+        height: 20vh;
+        width: 60vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .fsbutton a{
+        font-size: 5vw;
+        color: black;
+        text-decoration: none;
+    }
+    .fsbutton img{
+    
+        width: 1.6vw;
+        height: 1.6vw;
+    }
+    .fsinfo img{
+        width: 30vw;
+        height: 30vw;
+    }
+    .fsinfotext{
+        width: 30vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    .fsittitle{
+        font-size: 9vw;
+        font-weight: 400;
+    }
+    .fsitinfo{
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    .fsitbutton{
+        margin-top: 40px;
+        width: 30vw;
+        height: 5vh;
+        background-color: rgb(161, 114, 114);
+        border-radius: 10px;
+        font-size: 15pt;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .fsitbutton a{
+        padding: 10px;
+        align-items: center;
+        font-size: 3vw;
+        color: rgb(255, 223, 223);
+        text-decoration: none;
+        font-weight: 800;
+        transition: 0.3s;
+    }
+    
+    .fsitbutton:hover{
+        background-color: rgb(255, 223, 223);
+    }
+    .fsitbutton a:hover{
+        color: rgb(161, 114, 114);
+    }
+    
+    /*----------------------------------------------------------------------------*/
+    
+    .product{
+        background-color: white;
+        width: 100vw;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    
+    }
+    .featuredproduct{
+    
+        width: 90vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featuredproduct h1{
+        margin: 20px 10px;
+        font-size: 30pt;
+        color: rgb(87, 87, 87);
+    }
+    .featuredproduct hr{
+        width: 15vw;
+        background-color: #FFD7D7;
+    }
+    .latestproduct{
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .latestproduct h1{
+        margin: 20px 10px;
+        font-size: 30pt;
+        color: rgb(87, 87, 87);
+    }
+    .latestproduct hr{
+        width: 15vw;
+        background-color: #FFD7D7;
+    }
+    .cardplace{
+        width: 70vw;
+        height: 40vh;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    
+    /*-----------------------------------------------------------------*/
+    .aboutus{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color:#FFD7D7;
+    }
+    .aboutus h1{
+        font-size: 16vw;
+        font-weight: 400;
+        color: #000000;
+    }
+    .aboutus h2{
+        font-size: 8vw;
+        font-weight: 800;
+        color: #000000;
+    }
+    .aboutus h3{
+        font-size: 4vw;
+        margin-left: 45vw;
+    }
+    .cr{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .cr hr{
+        width: 90vw;
+    }
+}
